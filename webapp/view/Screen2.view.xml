@@ -1,0 +1,16 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+  controllerName="project2.controller.Screen2" displayBlock="true">
+  <Page id="_IDGenPage1" title="SCREEN 2">
+    <content>
+    <FlexBox id="FB" height="300px" alignItems="Center" justifyContent="Center" >
+      <VBox id="_IDGenVBox1">
+        <Label id="_IDGenLabel1" text="Name" />
+        <Text id="_IDGenText1" text="{/name}" />
+        <Label id="_IDGenLabel2" text="Email" />
+        <Text id="_IDGenText2" text="{/email}" />
+        <Button id="_IDGenButton1" text="Go To Screen 1" press="toScreen1" />
+      </VBox>
+      </FlexBox>
+    </content>
+  </Page>
+</mvc:View>
